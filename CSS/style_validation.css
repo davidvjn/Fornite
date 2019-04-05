@@ -68,3 +68,20 @@ footer {
     -webkit-animation: matt_le_pirate 8s;
     -webkit-animation-iteration-count: infinite;
 }
+@-webkit-keyframes bus {
+    0% {
+        transform: translate(-800px);
+    }
+
+        100% {
+        transform: translate(1900px);
+    }
+}
+
+span img {
+    -webkit-animation: bus 5s;
+    animation-fill-mode: forwards;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 100px;
+}

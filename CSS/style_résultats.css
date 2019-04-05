@@ -8,7 +8,6 @@ img {
 li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
-    font-style: block;
     font-weight: bold;
     margin-left: 50px;
 }
@@ -16,11 +15,13 @@ li {
 body {
     background-color: orangered;
 }
+
 h1 {
     font-size: 50px;
     text-align: center;
     padding: 10px 0 10px 0;
 }
+
 table {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
@@ -113,19 +114,15 @@ footer {
 
 @-webkit-keyframes bus {
     0% {
-        transform: translate(0px);
+        transform: translate(-800px);
     }
 
-    50% {
-        transform: translate(450px);
-    }
-
-    100% {
-        transform: translate(1100px);
+        100% {
+        transform: translate(1600px);
     }
 }
 
 span img {
-    -webkit-animation: bus 4s;
+    -webkit-animation: bus 5s;
     animation-fill-mode: forwards;
-    }
+}
