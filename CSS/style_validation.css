@@ -1,0 +1,70 @@
+a {
+    color: rgba(235, 181, 34, 0.897);
+    border: 5px solid green;
+    padding: 11px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: orangered;
+    list-style: none;
+}
+
+body {
+    background-color: green;
+}
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+main p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 80px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.lien {
+    color: yellow;
+    border: 3px solid green;
+    padding: 2px;
+}
+
+#matt {
+    font-weight: bold;
+    text-decoration: overline;
+    font-size: 20px;
+}
+
+@-webkit-keyframes matt_le_pirate {
+    0% {
+        transform: translate(50px);
+    }
+
+    50% {
+        transform: translate(450px);
+    }
+
+    100% {
+        transform: translate(1100px);
+    }
+}
+
+footer {
+    -webkit-animation: matt_le_pirate 8s;
+    -webkit-animation-iteration-count: infinite;
+}

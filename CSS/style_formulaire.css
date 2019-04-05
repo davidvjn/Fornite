@@ -1,0 +1,108 @@
+main p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+    font-size: 30px;
+    margin-left: 350px;
+    background-color: darkorange;
+}
+
+body {
+    background-color: orangered;
+    background-image: url(../IMG/Fornite_saison8.jpeg);
+    background-repeat: repeat-x;
+    background-size: 400px 200px;
+    margin-left: 10ex;
+}
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-style: block;
+    font-weight: bold;
+}
+
+footer p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+
+a {
+    color: rgba(235, 181, 34, 0.897);
+    border: 5px solid green;
+    padding: 11px;
+}
+
+form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 350px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+header {
+    margin-top: 200px;
+}
+
+main a {
+    float: left;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+nav ul li:first-child {
+    padding: 11px 0;
+    background-color: rgba(255, 0, 0, 0.425);
+}
+
+nav ul li:nth-child(2) {
+    padding: 11px 0;
+    background-color: chocolate;
+}
+
+nav ul li:nth-child(3) {
+    padding: 11px 0;
+    background-color: rgba(2, 63, 17, 0.904);
+}
+
+.lien {
+    color: yellow;
+    border: 3px solid green;
+    padding: 2px;
+}
+
+.image {
+    border: 0;
+}
+
+#matt {
+    font-weight: bold;
+    text-decoration: overline;
+    font-size: 20px;
+}
+
+@-webkit-keyframes matt_le_pirate {
+    0% {
+        transform: translate(50px);
+    }
+
+    50% {
+        transform: translate(450px);
+    }
+
+    100% {
+        transform: translate(1100px);
+    }
+}
+
+footer {
+    -webkit-animation: matt_le_pirate 8s;
+    -webkit-animation-iteration-count: infinite;
+}
